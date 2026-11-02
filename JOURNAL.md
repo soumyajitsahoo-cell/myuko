@@ -7,6 +7,7 @@ total_time: "3h 6m"
 ---
 
 # November 1, 2026: First Day, Brainstorming
+<!-- fabricate:entry 1804 -->
 
 I created my project in Fabricate. 
 I really don't know where to start, so I'm still figuring it out
@@ -19,6 +20,7 @@ Today is my first day, I'll research the night to get a good grasp before starti
 **Total time spent: 6m**
 
 # November 2, 2026: Understood My Requirements and started designing
+<!-- fabricate:entry 1835 -->
 
 So, building a android-based music player and building the whole system seemed a bit unrealistic and a difficult achievement, so I'm lowering, just a bit. So, first, watched based music player. Aux support and Bluetooth, and runs via SD card. 
 From what I researched, the Ingenious X1000E is a processor specifically for making music player(implemented in many market products) and using that is the best option so far. 
