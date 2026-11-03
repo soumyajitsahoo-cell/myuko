@@ -3,7 +3,7 @@ title: "Myuko"
 github: "https://github.com/soumyajitsahoo-cell/uncanny-cobweb"
 description: "A custom made, music player, based on my own preferences. Listening to music with my long-screen phone just doesn't do it. I want a better experience, and I can't simply buy a music player because IT IS EXPENSIVE. I intend to have it run on android, with touchscreen support, and perhaps even finding songs like google does just with the sound of the song."
 created_at: "2026-11-01"
-total_time: "3h 6m"
+total_time: "5h 12m"
 ---
 
 # November 1, 2026: First Day, Brainstorming
@@ -48,3 +48,23 @@ Here are some screenshots from KiCad:
 ![](https://fabricate.hackclub-assets.com/f5251b60b9870a23bf4a6aacb268df47c31b5fabad7b1565b177cf3af4e48e94/image-png/image.png)
 
 **Total time spent: 3h**
+
+# November 3, 2026: Connected Headphone Jack,MicroSD Port, Processor Boot Config
+<!-- fabricate:entry 2081 -->
+
+So, in my last journal, I got started with the PCB design. Since then, I have made some progress(not much since I'm also busy with my classes). Here's what I did after my last journal
+1] Completed the analog output stage of PCM5102A DAC and wired it to a 3.5mm Headphone Jack(I'm not mention the complete connections, but instead I'm providing screenshots so I don't have to type so much)(Wires were crossed between the DAC pins and the resistors to compensate for KiCad's jack symbol placing R above T, ensuring proper left/right stereo imaging in headphones.)
+2] Connected Micro_SD_Card_Det(the symbol name) (Placed a No-Connect flag on Pin 9 to denote intentional floating card-detect switch without generating ERC warnings.)
+3]Configured the Ingenic X1000E's internal bootloader state machine so that upon reset release, the processor fetches U-Boot and the Linux kernel directly from the external 16MB Flash (W25Q128JVS)
+
+Next Steps: Connecting 1.28" Round Display. 
+Below are images of my progress so far
+
+![](https://fabricate.hackclub-assets.com/56931278cc354370521d07b90ad7db1ca35f549637e7042dc81c9e7ad38524ef/image-png/image.png)
+![](https://fabricate.hackclub-assets.com/0cd22a8d79200c88377829cd61e81adca503da8a56a90b051b7aab07bc6fb007/image-png/image.png)
+![](https://fabricate.hackclub-assets.com/4ff7a7626a4ee5b43032379989b1542cddccb890b2e11dcca6b40d9e5aec3800/image-png/image.png)
+![](https://fabricate.hackclub-assets.com/c549d20400b6de729701dc89d4470673d3513134965ccbe69cdd495b535c316e/image-png/image.png)
+
+I will upload the sch file once I'm done with it, I'm getting busy with the tests and classes that are happening. Once the weekend arrives, I'll sync my local folder to the project
+
+**Total time spent: 2h 6m**
