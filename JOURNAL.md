@@ -3,7 +3,7 @@ title: "Myuko"
 github: "https://github.com/soumyajitsahoo-cell/uncanny-cobweb"
 description: "A custom made, music player, based on my own preferences. Listening to music with my long-screen phone just doesn't do it. I want a better experience, and I can't simply buy a music player because IT IS EXPENSIVE. I intend to have it run on android, with touchscreen support, and perhaps even finding songs like google does just with the sound of the song."
 created_at: "2026-11-01"
-total_time: "5h 12m"
+total_time: "9h 12m"
 ---
 
 # November 1, 2026: First Day, Brainstorming
@@ -68,3 +68,40 @@ Below are images of my progress so far
 I will upload the sch file once I'm done with it, I'm getting busy with the tests and classes that are happening. Once the weekend arrives, I'll sync my local folder to the project
 
 **Total time spent: 2h 6m**
+
+# November 7, 2026: Touch Display and USB C-Port Connection
+<!-- fabricate:entry 2359 -->
+
+So my streak is gone now, was busy with classes and labs, and Today I went to the theatres for a movie(it was absolutely fun and tiring too). Anyway, since my last journal, here are the changes I have made so far(screenshots will also be provided
+below)
+1]Display and Touch - Placed a 12-pin ribbon connector right above the MicroSD socket.
+Powered the display logic and LED backlight with +3V3 and GND.
+Connected all 5 picture lines directly to the top pins of the processor (U1).
+Attached 4 touch name tags (TP_INT, TP_SDA, TP_SCL, TP_RST) so you can tap and swipe without running messy wires across the sheet.
+2] USB-C port - Added the modern 16-pin USB-C receptacle.
+Grounded the metal shell and ground pins to GND.
+Added two independent 5.1kΩ resistors on CC1 and CC2 so smart USB-C chargers (like Apple or Anker) recognize the watch and provide 5V.
+Labeled the incoming 5V line VBUS.
+3] Battery Subsystem - Placed the MCP73831 charger chip powered by 5V VBUS with a 
+4.7𝜇F smoothing capacitor.
+Added a 4.7kΩ programming resistor (R8) to set a safe, gentle 212mA charging speed so the watch stays cool on your wrist.
+Added a 2-pin battery plug (J5) and connected it to the master VBAT line.
+4] Other - U5 (3.3V): Creates clean +3V3 for the screen, flash storage, SD card, and audio chip.
+U6 (1.8V): Creates clean +1V8 for the brain's internal 64MB RAM.
+U7 (1.2V): Creates clean +1V2 for the main CPU thinking engine.
+Each regulator has its own input (1.0 μF) and output (2.2 μF) filter capacitors to keep voltages rock solid.
+CPU Core: 8 pins of VDD wired together to +1V2.
+Main Ground: 11 pins of VSS wired together to GND.
+I/O Power: 4 pins of VDDIO wired together to +3V3.
+RAM Memory Power: 6 pins of VSSMEM grounded; 6 pins of VDDMEM fed +1V8.
+RAM Tuning Helpers: Added 0.1 μF capacitor (C15) on VREF0 and a precision 240Ω resistor (R9) on ZQ.
+RAM Buffers & Core: 8 pins of LPDDR_VSS/Q tied to GND; 8 pins of LPDDR_VDD/Q tied to +1V8.
+Unused JTAG Pins: Terminated 6 factory test pins at the bottom corner with blue X (No-Connect) flags.
+Internal Codec: Powered its digital rails with +1V8 & GND, and marked all unused mic and speaker pins with blue X flags.
+
+All the screenshots are given below
+![](https://fabricate.hackclub-assets.com/cac4229252677f2bfee25b73cba42c57292cdf03277db2d22392d32ffa2e2f89/image-png/image.png)
+![](https://fabricate.hackclub-assets.com/c807551d8fb8a0662f64377daa88727d52f6f79ed58b0247dbd3532bdb5b73f9/image-png/image.png)
+![](https://fabricate.hackclub-assets.com/6469a0307b1b5eb833f05d95d4b2098190c0f9b216dcad847f517e6fcb507c24/image-png/image.png)
+
+**Total time spent: 4h**
