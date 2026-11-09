@@ -3,7 +3,7 @@ title: "Myuko"
 github: "https://github.com/soumyajitsahoo-cell/uncanny-cobweb"
 description: "A custom made, music player, based on my own preferences. Listening to music with my long-screen phone just doesn't do it. I want a better experience, and I can't simply buy a music player because IT IS EXPENSIVE. I intend to have it run on android, with touchscreen support, and perhaps even finding songs like google does just with the sound of the song."
 created_at: "2026-11-01"
-total_time: "9h 12m"
+total_time: "14h 24m"
 ---
 
 # November 1, 2026: First Day, Brainstorming
@@ -105,3 +105,24 @@ All the screenshots are given below
 ![](https://fabricate.hackclub-assets.com/6469a0307b1b5eb833f05d95d4b2098190c0f9b216dcad847f517e6fcb507c24/image-png/image.png)
 
 **Total time spent: 4h**
+
+# November 9, 2026: Completed the PCB
+<!-- fabricate:entry 2503 -->
+
+Firstly, A late Happy Diwali to Everyone who is celebrating and knows about the festival. Stayed Eco-friendly, as I should, and had a lot of fun in the past few days. Today's the time to celebrate. 
+
+With the help of my senior friend, Anshuman Pati, I was able to get my pcb design completed from the schematic I built( Basically he helped me get my PCB done from my schematic, huge thanks to him).
+
+Now, the PCB is set to fit for a circular case of 23mm diameter, and is arranged properly. I'm going to update this repository and upload the files and bill of materials.
+
+Screenshots of the 3D model of the PCB is given below. And By Today, or tomorrow, I will put everything in the repository, and take my time for building a readme.txt file. I'm on a clock now, since I have roughly 10-11 days to complete the whole thing and send a design review to get resources to build it
+
+So excited for this, really. (Still haven't started with designing the UI :| )
+
+![](https://fabricate.hackclub-assets.com/d3e635c3ba88cbdc567edce4ec8aeded195140992fb35af31f1ef60eea9c8a42/image-png/image.png)
+![](https://fabricate.hackclub-assets.com/fc4a75c02db78142c4171fad961e227694cb3708d2f5391131e44388a78efa63/image-png/image.png)
+![](https://fabricate.hackclub-assets.com/da6196d8b48a34bfba936072b87826b7a9d421531e5bf86e8385708b85b8d95f/image-png/image.png)
+![](https://fabricate.hackclub-assets.com/acaa3d05237de11b79ab43f3daddb416c50b9517eb513b25d21ce444ae79d8f8/video-mp4/myuko%20%E2%80%94%20PCB%20Editor%202026-11-10%2000-19-25.mp4)
+![](https://fabricate.hackclub-assets.com/c21496a340e1e7274dfb02caab345aec4a8fa4d43407039167d971f8af2dce15/video-mp4/3D%20Viewer%202026-11-10%2000-19-03.mp4)
+
+**Total time spent: 5h 12m**
