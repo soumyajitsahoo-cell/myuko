@@ -1,34 +1,20 @@
-Part,Type,Quantity,Unit price (USD),Line total (USD),Link,Vendor,Funding,Notes,Designator,Footprint,LCSC Part #
-Ingenic X1000E MIPS32 1GHz SoC (64MB LPDDR),Part,1,5.80,5.80,https://www.lcsc.com/product-detail/Microcontroller-Units-MCUs-MPUs-SOCs_Ingenic-Semicon-X1000E_C2689394.html,,Grant,,U1,BGA-190,C2689394
-Winbond 16MB SPI NOR Flash (W25Q128JVS),Part,1,0.85,0.85,https://www.lcsc.com/product-detail/NOR-FLASH_Winbond-Elec-W25Q128JVSIQ_C97521.html,,Grant,,U2,SOIC-8,C97521
-TI PCM5102APWR 32-bit 384kHz Hi-Fi Audio DAC,Part,1,2.10,2.10,https://www.lcsc.com/product-detail/Audio-Power-OpAmps_Texas-Instruments-PCM5102APWR_C107671.html,,Grant,,U3,TSSOP-20,C107671
-Microchip MCP73831T Li-Po Charge Controller,Part,1,0.35,0.35,https://www.lcsc.com/product-detail/Battery-Management-ICs_Microchip-Tech-MCP73831T-2ACI-MC_C49774.html,,Grant,,U4,DFN-8,C49774
-AP2112K-3.3TRG1 3.3V 600mA Low Dropout Regulator,Part,1,0.18,0.18,https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Diodes-Incorporated-AP2112K-3-3TRG1_C51118.html,,Grant,,U5,SOT-23-5,C51118
-AP2112K-1.8TRG1 1.8V 600mA Low Dropout Regulator,Part,1,0.18,0.18,https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Diodes-Incorporated-AP2112K-1-8TRG1_C176944.html,,Grant,,U6,SOT-23-5,C176944
-AP2112K-1.2TRG1 1.2V 600mA Low Dropout Regulator,Part,1,0.32,0.32,https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Diodes-Incorporated-AP2112K-1-2TRG1_C460310.html,,Grant,,U7,SOT-23-5,C460310
-24.000MHz +/-10ppm 12pF SMD Crystal,Part,1,0.12,0.12,https://www.lcsc.com/product-detail/Crystals_YXC-Yangxing-Tech-X322524MOB4SI_C70590.html,,Grant,,Y1,SMD-3225-4P,C70590
-32.768kHz +/-20ppm 12.5pF RTC Sleep Crystal,Part,1,0.15,0.15,https://www.lcsc.com/product-detail/Crystals_Seiko-Epson-Q13FC13500004_C32346.html,,Grant,,Y2,SMD-3215-2P,C32346
-3.5mm Stereo Audio Jack (SJ-3523-SMT),Part,1,0.25,0.25,https://www.lcsc.com/product-detail/Audio-Connectors_CUI-Devices-SJ-3523-SMT-TR_C4991872.html,,Grant,,J1,SMD-Horizontal,C4991872
-MicroSD Push-Push Card Socket,Part,1,0.22,0.22,https://www.lcsc.com/product-detail/MicroSD-Card-Connectors_XKB-Connectivity-XKTF-015-N_C381082.html,,Grant,,J2,SMD-Push-Push,C381082
-0.5mm Pitch 12-Pin Flip-Lock FPC Display Connector,Part,1,0.10,0.10,https://www.lcsc.com/product-detail/FFC-FPC-Connectors_JUSHUO-AFC01-S12FCA-00_C262661.html,,Grant,,J3,SMD-0.5mm,C262661
-USB Type-C 16-Pin Receptacle,Part,1,0.12,0.12,https://www.lcsc.com/product-detail/USB-Connectors_HOO-R-TYPE-C-16PIN-2MD-073_C2765186.html,,Grant,,J4,SMD-TYPE-C-16P,C2765186
-JST-PH 2.0mm 2-Pin Battery Plug,Part,1,0.05,0.05,https://www.lcsc.com/product-detail/Pluggable-System-Terminal-Block_JST-Sales-America-B2B-PH-K-S-LF-SN_C131337.html,,Grant,,J5,SMD-JST-PH-2P,C131337
-Tactile Push Button SMD (KMR2),Part,1,0.04,0.04,https://www.lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS-1187A-B-A-B_C318884.html,,Grant,,SW1,SMD-4.2x2.8mm,C318884
-12pF 50V C0G 0402 Capacitor,Part,2,0.005,0.01,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402JRNPO9BN120_C1547.html,,Grant,,"C1, C2",0402,C1547
-0.1uF (100nF) 16V X7R 0402 Decoupling Capacitor,Part,4,0.005,0.02,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402KRX7R7BB104_C1525.html,,Grant,,"C3, C5, C7, C15",0402,C1525
-2.2uF 10V X5R 0402 Capacitor,Part,5,0.008,0.04,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A225MP5NNNC_C23630.html,,Grant,,"C4, C6, C10, C12, C14",0402,C23630
-4.7uF 10V X5R 0402 Capacitor,Part,1,0.01,0.01,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A475MQ5NRNC_C23633.html,,Grant,,C8,0402,C23633
-1.0uF 16V X5R 0402 Capacitor,Part,4,0.006,0.02,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A105KO5NNNC_C52923.html,,Grant,,"C9, C11, C13, C16",0402,C52923
-1.0nF 50V X7R 0402 Capacitor,Part,1,0.005,0.01,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402KRX7R9BB102_C1523.html,,Grant,,C17,0402,C1523
-15pF 50V C0G 0402 Capacitor,Part,2,0.005,0.01,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402JRNPO9BN150_C1550.html,,Grant,,"C18, C19",0402,C1550
-10k 1% 0402 Resistor,Part,5,0.003,0.01,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uni-royal-Elec-0402WGF1002TCE_C25744.html,,Grant,,"R1, R2, R5, R6, R7",0402,C25744
-470R 1% 0402 Resistor,Part,2,0.003,0.01,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uni-royal-Elec-0402WGF4700TCE_C25117.html,,Grant,,"R3, R4",0402,C25117
-4.7k 1% 0402 Resistor,Part,1,0.003,0.00,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uni-royal-Elec-0402WGF4701TCE_C25900.html,,Grant,,R8,0402,C25900
-240R 1% 0402 Resistor,Part,1,0.003,0.00,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uni-royal-Elec-0402WGF2400TCE_C25091.html,,Grant,,R9,0402,C25091
-5.1k 1% 0402 Resistor (USB-C CC Pull-down),Part,2,0.003,0.01,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uni-royal-Elec-0402WGF5101TCE_C25905.html,,Grant,,"R10, R11",0402,C25905
-43.2R 1% 0402 Resistor (USB OTG bias),Part,1,0.003,0.00,https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uni-royal-Elec-0402WGF432JTCE_C25121.html,,Grant,,R12,0402,C25121
-"1.28-inch Circular 240x240 IPS Touchscreen Display (GC9A01 + CST816S, 12-pin FPC)",Part,1,4.80,4.80,https://www.waveshare.com/1.28inch-touch-lcd.htm,,Grant,,DISP1,1.28-inch Round Module,N/A (Waveshare / AliExpress)
-3.7V 400mAh-500mAh Li-Po Rechargeable Battery (JST-PH 2.0),Part,1,3.50,3.50,https://www.adafruit.com/product/1578,,Grant,,BAT1,502530 Pouch (25x30x5mm),N/A (Adafruit / Makerfabs)
-20mm Quick-Release Silicone Sports Watch Band,Part,1,2.50,2.50,https://www.amazon.com/dp/B07F2BF25S,,Grant,,STRAP1,20mm Lug Mount,N/A (Amazon / Retail)
-"Custom 4-Layer Circular PCB Fabrication Batch (JLCPCB 5pcs, JLC04161H)",PCB,5,2.00,10.00,https://jlcpcb.com,,Grant,,PCB,Dia 46.0mm Circle 4-Layer FR4,JLCPCB PCB Order
-Total,,,,31.78,,,,,,,
+Part,Type,Quantity,Unit price (USD),Line total (USD),Link,Vendor,Funding,Notes,Designator
+Ingenic X1000E MIPS 1GHz CPU (64MB LPDDR),Part,1,5.80,5.80,https://www.lcsc.com/product-detail/Microcontroller-Units-MCUs-MPUs-SOCs_Ingenic-Semicon-X1000E_C2689394.html,LCSC,Grant,,U1
+Winbond 16MB SPI NOR Flash (W25Q128),Part,1,0.85,0.85,https://www.lcsc.com/product-detail/NOR-FLASH_Winbond-Elec-W25Q128JVSIQ_C97521.html,LCSC,Grant,,U2
+TI PCM5102APWR 32-bit 384kHz Audio DAC,Part,1,2.10,2.10,https://www.lcsc.com/product-detail/Audio-Power-OpAmps_Texas-Instruments-PCM5102APWR_C107671.html,LCSC,Grant,,U3
+Microchip MCP73831T Li-Po Charge IC,Part,1,0.35,0.35,https://www.lcsc.com/product-detail/Battery-Management-ICs_Microchip-Tech-MCP73831T-2ACI-MC_C49774.html,LCSC,Grant,,U4
+Diodes Inc AP2112K LDO Regulators (3.3V 1.8V 1.2V),Part,3,0.23,0.68,https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Diodes-Incorporated-AP2112K-3-3TRG1_C51118.html,LCSC,Grant,,U5 U6 U7
+3.5mm Stereo Headphone Socket (SJ-3523-SMT),Part,1,0.25,0.25,https://www.lcsc.com/product-detail/Audio-Connectors_CUI-Devices-SJ-3523-SMT-TR_C4991872.html,LCSC,Grant,,J1
+MicroSD Card Push-Push Push-Pull Socket,Part,1,0.32,0.32,https://www.lcsc.com/product-detail/Card-Sockets-Connectors_SOFNG-TF-01A_C2932349.html,LCSC,Grant,,J2
+FPC 0.5mm 12-Pin Top-Contact SMD Socket,Part,1,0.18,0.18,https://www.lcsc.com/product-detail/FFC-FPC-Connectors_JUSHUO-FPC0520HB-12P_C262657.html,LCSC,Grant,,J3
+USB Type-C 16-Pin Receptacle (USB 2.0 SMT),Part,1,0.28,0.28,https://www.lcsc.com/product-detail/USB-Connectors_HOO-R-TYPE-C-16PIN-2MD-073_C2765186.html,LCSC,Grant,,J4
+JST-PH 2.0mm 2-Pin SMD Terminal,Part,1,0.05,0.05,https://www.lcsc.com/product-detail/Pluggable-System-Terminal-Block_JST-Sales-America-B2B-PH-K-S-LF-SN_C131337.html,LCSC,Grant,,J5
+Side SMD Tactile Switch 3x2.5mm,Part,1,0.08,0.08,https://www.lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1088R-02526_C2844781.html,LCSC,Grant,,SW1
+24MHz Main & 32.768kHz RTC Crystals (SMD 3225),Part,2,0.12,0.23,https://www.lcsc.com/product-detail/Crystals_YXC-Yangxing-Tech-X322524MOB4SI_C70590.html,LCSC,Grant,,Y1 Y2
+0402 Ceramic Capacitors & Resistors (Assorted),Part,31,0.005,0.16,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402JRNPO9BN120_C1547.html,LCSC,Grant,,C1-C19 R1-R12
+1.28 inch Round IPS Touchscreen (GC9A01 + CST816S),Part,1,4.80,4.80,https://www.waveshare.com/1.28inch-touch-lcd.htm,Waveshare Store,Grant,,DISP1
+3.7V 400mAh Li-Po Rechargeable Pouch Cell (502530),Part,1,3.50,3.50,https://www.adafruit.com/product/1578,Adafruit / Makerfabs,Grant,,BAT1
+20mm Quick-Release Black Silicone Sport Band,Part,1,2.50,2.50,https://www.amazon.com/dp/B07F2BF25S,Amazon / Retail,Grant,,STRAP1
+Custom 4-Layer Circular PCB (x5 boards fab cost),PCB,5,2.00,10.00,https://jlcpcb.com,JLCPCB,Grant,,PCB
+4-Part Matte Black Nylon MJF Enclosure,3D printed,1,4.50,4.50,https://jlcpcb.com/3d-printing,JLCPCB 3D Printing,Grant,,CASE
+Total,,,,36.63,,,,,
