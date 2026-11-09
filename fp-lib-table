@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "X1000E")(type "KiCad")(uri "${KIPRJMOD}/X1000E.pretty")(options "")(descr "Ingenic X1000E Footprints"))
+)

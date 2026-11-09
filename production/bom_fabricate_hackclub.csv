@@ -1,0 +1,20 @@
+Category,Item Description,Designator,Qty,Unit Price (USD),Total Price (USD),Supplier,Supplier Part / Link
+Main SoC,Ingenic X1000E MIPS 1GHz CPU (64MB LPDDR),U1,1,5.80,5.80,LCSC,C2689394 - https://www.lcsc.com/product-detail/Microcontroller-Units-MCUs-MPUs-SOCs_Ingenic-Semicon-X1000E_C2689394.html
+Storage,Winbond 16MB SPI NOR Flash (W25Q128),U2,1,0.85,0.85,LCSC,C97521 - https://www.lcsc.com/product-detail/NOR-FLASH_Winbond-Elec-W25Q128JVSIQ_C97521.html
+Hi-Fi DAC,TI PCM5102APWR 32-bit 384kHz Audio DAC,U3,1,2.10,2.10,LCSC,C107671 - https://www.lcsc.com/product-detail/Audio-Power-OpAmps_Texas-Instruments-PCM5102APWR_C107671.html
+Battery Charger,Microchip MCP73831T Li-Po Charge IC,U4,1,0.35,0.35,LCSC,C49774 - https://www.lcsc.com/product-detail/Battery-Management-ICs_Microchip-Tech-MCP73831T-2ACI-MC_C49774.html
+Voltage Regulators,Diodes Inc AP2112K LDO Regulators (3.3V 1.8V 1.2V),U5 U6 U7,3,0.23,0.68,LCSC,C51118 - https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Diodes-Incorporated-AP2112K-3-3TRG1_C51118.html
+Audio Jack,3.5mm Stereo Headphone Socket (SJ-3523-SMT),J1,1,0.25,0.25,LCSC,C4991872 - https://www.lcsc.com/product-detail/Audio-Connectors_CUI-Devices-SJ-3523-SMT-TR_C4991872.html
+Memory Card Slot,MicroSD Card Push-Push Push-Pull Socket,J2,1,0.32,0.32,LCSC,C2932349 - https://www.lcsc.com/product-detail/Card-Sockets-Connectors_SOFNG-TF-01A_C2932349.html
+Display Connector,FPC 0.5mm 12-Pin Top-Contact SMD Socket,J3,1,0.18,0.18,LCSC,C262657 - https://www.lcsc.com/product-detail/FFC-FPC-Connectors_JUSHUO-FPC0520HB-12P_C262657.html
+USB-C Port,USB Type-C 16-Pin Receptacle (USB 2.0 SMT),J4,1,0.28,0.28,LCSC,C2765186 - https://www.lcsc.com/product-detail/USB-Connectors_HOO-R-TYPE-C-16PIN-2MD-073_C2765186.html
+Battery Plug,JST-PH 2.0mm 2-Pin SMD Terminal,J5,1,0.05,0.05,LCSC,C131337 - https://www.lcsc.com/product-detail/Pluggable-System-Terminal-Block_JST-Sales-America-B2B-PH-K-S-LF-SN_C131337.html
+Push Button,Side SMD Tactile Switch 3x2.5mm,SW1,1,0.08,0.08,LCSC,C2844781 - https://www.lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1088R-02526_C2844781.html
+Crystals,24MHz Main & 32.768kHz RTC Crystals (SMD 3225),Y1 Y2,2,0.12,0.23,LCSC,C70590 - https://www.lcsc.com/product-detail/Crystals_YXC-Yangxing-Tech-X322524MOB4SI_C70590.html
+Passive Components,0402 Ceramic Capacitors & Resistors (Assorted),C1-C19 R1-R12,31,0.005,0.16,LCSC,C1547 - https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402JRNPO9BN120_C1547.html
+Display Module,1.28 inch Round IPS Touchscreen (GC9A01 + CST816S),DISP1,1,4.80,4.80,Waveshare Store,https://www.waveshare.com/1.28inch-touch-lcd.htm
+Battery,3.7V 400mAh Li-Po Rechargeable Pouch Cell (502530),BAT1,1,3.50,3.50,Adafruit / Makerfabs,https://www.adafruit.com/product/1578
+Watch Strap,20mm Quick-Release Black Silicone Sport Band,STRAP1,1,2.50,2.50,Amazon / Retail,https://www.amazon.com/dp/B07F2BF25S
+Custom PCB,Custom 4-Layer Circular PCB (x5 boards fab cost),PCB,5,2.00,10.00,JLCPCB,https://jlcpcb.com
+3D Printed Case,4-Part Matte Black Nylon MJF Enclosure,CASE,1,4.50,4.50,JLCPCB 3D Printing,https://jlcpcb.com/3d-printing
+TOTAL ESTIMATED COST,Complete Smartwatch Project with 3D Case & PCB,,,,,37.60

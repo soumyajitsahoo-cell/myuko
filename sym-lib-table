@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "X1000E")(type "KiCad")(uri "${KIPRJMOD}/X1000E.kicad_sym")(options "")(descr "Ingenic X1000E CPU"))
+)
